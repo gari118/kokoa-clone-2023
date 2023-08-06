@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+        <title>Welcome to Raccoon</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>80%</span>
+                <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to Raccoon</h1>
+            <img class="welcom-header__img" src="img/background.jpg">
+            <p class="welcome-header__text">
+                If you have a Raccoon Account, log in with your email or phone number.
+            </p>
+        </header>
+
+        <form action="views/friends.html" method="get" id="login-form">
+            <input name="username" type="text" placeholder="Email or phone number" required />
+            <input name="password" type="password" placeholder="Password" required />
+            <input type="submit" value="Log In" />
+            <a href="#">Find Raccoon Account or Password</a>
+        </form>
+
+        <div id="no-mobile">
+            <span>You screen is too big ㅠㅠ</span>
+        </div>
+
+        <script src="https://kit.fontawesome.com/db0e84df57.js" crossorigin="anonymous"></script>
+    </body>
+</html>

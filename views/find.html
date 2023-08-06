@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="../img/favicon.png" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+        <title>Find - Raccoon</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>80%</span>
+                <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">Find</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fa-solid fa-search fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-gear fa-lg"></i>
+                </span>
+                <span class="badge-gear"> </span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <div class="icon-row">
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-qrcode"></i>
+                    <span>QR Code</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fa-regular fa-address-book"></i>
+                    <span>Add by Contacts</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <span>Add by ID</span>
+                </div>
+                <div class="icon-row__icon">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Invite</span>
+                </div>
+            </div>
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">Recommended Friends</h6>
+                <span>You have no recommended friends.</span>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__header">
+                    <h4>Open Chat</h4>
+                    <span>
+                        Go to Openchat Home
+                        <i class="fa-solid fa-chevron-right fa-xs"></i>
+                    </span>
+                </div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#THOR</h5>
+                        <h6 class="open-post__hashtags">#thor#asgard#avangers</h6>
+                        <div class="open-post__members">
+                            <img
+                                src="https://i.namu.wiki/i/Xc7WmR-EasRjk8ruE4tKKhJtO7Q77dMbakKNYso7OODCyaZ5EhvDemp-2EQmNsAJEht6E6ATDtdOE6dIMp1zAw.webp" />
+                            <span class="open-post__member-count">1220 members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                        </div>
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img
+                                src="https://i.namu.wiki/i/Xc7WmR-EasRjk8ruE4tKKhJtO7Q77dMbakKNYso7OODCyaZ5EhvDemp-2EQmNsAJEht6E6ATDtdOE6dIMp1zAw.webp" />
+                            <div class="open-post__heart-count">
+                                <i class="fa-solid fa-heart fa-xs"></i><span>326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a calss="nav__link" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification nav__notification-comment badge">
+                            1
+                        </span>
+                        <i class="fa-regular fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fa-solid fa-search fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <span class="nav__notification nav__notification-ellipsis"> </span>
+                        <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>You screen is too big ㅠㅠ</span>
+        </div>
+
+        <script src="https://kit.fontawesome.com/db0e84df57.js" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="../img/favicon.png" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+        <title>Chats - Raccoon</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>80%</span>
+                <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fa-solid fa-search fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fa-regular fa-comment-dots fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-music fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-gear fa-lg"></i>
+                </span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <a href="chat.html">
+                <div class="user-component chats-hover-event">
+                    <div class="user-component__column">
+                        <img src="https://avatars.githubusercontent.com/u/60771314?v=4"
+                            class="user-component__avatar user-component__avatar" />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">Rocket Raccoon</h4>
+                            <h6 class="user-component__subtitle">
+                                Please check My Kokoa Account Info
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">21:22</span>
+                        <div class="badge">1</div>
+                    </div>
+                </div>
+            </a>
+            <a href="chat2.html">
+                <div class="user-component chats-hover-event">
+                    <div class="user-component__column">
+                        <img src="https://volcanoshop.net/web/product/big/201805/4057_shop1_177562.jpg"
+                            class="user-component__avatar user-component__avatar" />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">Groot</h4>
+                            <h6 class="user-component__subtitle">
+                                I am Groot !
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">16:22</span>
+                        <div class="badge">2</div>
+                    </div>
+                </div>
+            </a>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a calss="nav__link" href="friends.html">
+                        <i class="fa-regular fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification nav__notification-comment badge">
+                            1
+                        </span>
+                        <i class="fa-solid fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fa-solid fa-search fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <span class="nav__notification nav__notification-ellipsis"> </span>
+                        <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>You screen is too big ㅠㅠ</span>
+        </div>
+
+        <script src="https://kit.fontawesome.com/db0e84df57.js" crossorigin="anonymous"></script>
+    </body>
+</html>

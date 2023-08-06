@@ -1,0 +1,53 @@
+.badge {
+    background-color: tomato;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.badge-gear {
+    background-color: tomato;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.nav__notification {
+    position: absolute;
+}
+
+.nav__notification-comment {
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__notification-ellipsis {
+    background-color: tomato;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 30px;
+    bottom: 25px;
+}
