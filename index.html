@@ -16,7 +16,7 @@
                 <i class="fa-solid fa-wifi"></i>
             </div>
             <div class="status-bar__column">
-                <span>18:43</span>
+                <span id="clock">18:43</span>
             </div>
             <div class="status-bar__column">
                 <span>80%</span>
@@ -33,7 +33,7 @@
             </p>
         </header>
 
-        <form action="views/friends.html" method="get" id="login-form">
+        <form method="get" id="login-form">
             <input name="username" type="text" placeholder="Email or phone number" required />
             <input name="password" type="password" placeholder="Password" required />
             <input type="submit" value="Log In" />
@@ -43,7 +43,8 @@
         <div id="no-mobile">
             <span>You screen is too big ㅠㅠ</span>
         </div>
-
+        <script src="js/login.js"></script>
+        <script src="js/status-bar.js"></script>
         <script src="https://kit.fontawesome.com/db0e84df57.js" crossorigin="anonymous"></script>
     </body>
 </html>
